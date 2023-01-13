@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>London</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="menu">
+		<nav id="headerlinks">
+			<ul>
+				<li><a href="register.html" class="current">Register</a></li>
+				<li><a href="signin.html"> Sign in </a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</nav>
+		<nav id="primarynav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="places.html">Places</a></li>
+				<li><a href="transport.html">Transport</a></li>
+				<li><a href="traveltips.html">Travel Tips</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<ul class="breadcrumbs">
+			<li><a href="index.html">Home</a></li>
+			<li>Register</li>
+		</ul>
+		<header>
+			<h1>Register</h1>
+		</header>
+		<form>
+			<label><b>Email</b></label><br>
+			<input placeholder="Enter Email" name="email" required><br>
+			<label><b>Password</b></label><br>
+			<input placeholder="Enter Password" name="psw" required><br>
+			<label><b>Repeat Password</b></label><br>
+			<input id="last_input_margin" placeholder="Repeat Password" name="psw-repeat" required>
+			<p id="terms_link">
+			By creating an account you agree to our <a href="#">Terms & Privacy.</a>
+			</p>
+			<button class="button button_register">Register</button>
+			<p id="register_link">
+			Already have an account? <a href="signin.html">Sign in</a>
+			</p>
+		</form>
+	</main>
+	<footer>
+		<nav id="footerlinks">
+			<ul>
+				<li><a href="#">Copyright</a></li>
+				<li><a href="#">Accessibility</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

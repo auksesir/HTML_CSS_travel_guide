@@ -1,0 +1,647 @@
+/* GENERAL STYLES */
+* {
+	font-size: 2vmin;
+	outline: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+	color: #3b2322;
+	opacity: .95;
+	background-color: rgb(4, 33, 104, .02);
+	margin-bottom: .3rem;
+
+}
+
+main {
+	
+	margin-top: .5rem;
+	margin-right: 11vmin;
+	margin-bottom: 1.5rem;
+	margin-left: 11vmin;
+	
+}
+
+h1 {
+	
+	font-family: 'Permanent Marker', cursive;
+	color: rgb(0, 19, 77, .85);
+	font-size: 3.5rem;
+	letter-spacing: -.25rem;
+	line-height: 4rem;
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
+
+}
+
+h2 {
+	
+	font-family: 'Permanent Marker', cursive;
+	color: rgb(0, 19, 77, .9);
+	font-size: 1.7rem;
+	letter-spacing: -.07rem;
+	line-height: 2rem;
+	
+}
+
+h3 {
+	
+	font-family: 'Permanent Marker', cursive;
+	color: rgb(0, 19, 77, .9);
+	font-size: 1.2rem;
+	letter-spacing: -.09rem;
+	margin: 1.5rem 0;
+
+}
+
+p {
+	
+	text-align: justify;
+	line-height: calc(1ex / 0.32);
+	padding-bottom: 1rem;
+
+}
+
+
+
+/*SITEWIDE*/
+
+/* Breadcrumbs */
+.breadcrumbs li {
+	
+	display: inline-block;
+	
+}
+
+.breadcrumbs li:last-child {
+	
+	font-size: 0.75rem;
+	
+}
+
+.breadcrumbs li+li:before {
+
+	color: black;
+	font-size: .75rem;
+    content: "/\00a0" "/\00a0" "/\00a0";
+
+}
+
+/* Text highlighting */
+.highlight {
+	
+	color: rgb(230, 144, 0);
+
+}
+
+/* Current page highlighting */
+#headerlinks .current, #headerlinks li:first-child .current, #primarynav .current {
+	
+	background-color: rgb(242, 242, 242, 0.3);	
+
+}
+
+/* Formatting figcaptions that are under images */
+.source, .source a {
+	
+	font-size: .7rem;
+	letter-spacing: -.015rem;
+	text-align: left;
+	margin-bottom: .5rem;
+	
+}
+
+/* Formatting paragraphs on places and travel tips pages */
+#container_places p, #container_tips p {
+	
+	text-align: left;
+	padding-bottom: 0;
+
+}
+
+/* Formatting buttons */
+.button {
+	
+	font-size: 1rem;
+	box-shadow: .05rem 0.05rem .1rem rgb(4, 33, 104);
+	border: 1px solid rgb(0, 19, 77, .6);
+	border-radius: 50px;
+	padding: 0.5rem;
+	margin-top: 1.2rem;
+	margin-left: auto;
+
+}
+
+/* Formatting flexboxes on the index and travel tips pages */
+.flexbox {
+	
+	background-color: white;
+	border: 1px solid rgb(0, 19, 77, .3);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 1.5rem;
+	gap: 1.5rem;
+
+}
+
+/* Navigation */
+
+/* Navigation menu background image */
+#menu {
+  
+	background-image: url("../media/navigationCover.jpg");
+	max-height: 400vmax;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+/* Headerlinks */
+#headerlinks {
+	
+	text-align: right;
+	margin-right: 11vmin;
+	margin-left: 11vmin;
+
+}
+
+#headerlinks li {
+	
+	list-style: none;
+	display: inline-block;
+	margin-top: 1rem;
+	
+}
+
+#headerlinks a {
+	
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 1.1rem;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	background-color: rgb(4, 33, 104, .7);
+	border: 0.25vmax solid white;
+	border-radius: 10rem;
+	margin-top: .8rem;
+	margin-bottom: .5rem;	
+	padding: .2rem;
+
+}
+
+#headerlinks li:first-child a {
+	
+	font-weight: bold;
+	background-color: rgb(230, 144, 0, .9);
+	
+}
+
+#headerlinks li + li {
+    
+	margin-right: .2rem;
+
+}
+
+/* Primary navigation */
+#primarynav {
+	
+	margin-right: 11vmin;
+	margin-left: 11vmin;
+	
+}
+
+#primarynav ul {
+	
+	overflow: hidden;	
+	margin-top: 9rem;
+		
+}
+
+#primarynav li {
+	
+	list-style: none;
+	display: inline-block;
+	
+}
+
+#primarynav a {
+	
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.2rem;
+	letter-spacing: .2rem;
+	color: white;
+	text-decoration: none;
+	background-color: rgb(4, 33, 104, .8);
+	border: 0.25vmax solid white;
+	border-radius: 10rem;	
+	display: inline-block;
+	padding: .4rem .2rem .4rem .2rem;
+	margin-right: .2rem;
+	margin-bottom: .5rem;
+
+}
+
+/* Footerlinks, intersite and internal links */
+#footerlinks {
+	
+	border-top: 1px solid rgb(0, 19, 77, .3);
+	text-align: center;
+	margin-bottom: 0.3rem; 
+
+}
+
+#footerlinks li{
+	
+	list-style: none;
+	display: inline-block;
+	
+}
+
+#footerlinks:first-child a {
+	
+	margin-right: 1rem;
+	
+}
+
+#footerlinks a, #terms_link a, #register_link a, .breadcrumbs a {
+	
+	color: rgb(0, 42, 168);
+	text-decoration: underline;
+	font-size: 0.75rem;
+
+}
+
+.intersite_link {
+	
+	color: rgb(0, 42, 168);
+	text-decoration: underline;
+
+}
+
+/* Pseudo-classes */
+
+/* Headerlinks and primary navigation */
+#headerlinks a:hover, #primarynav a:hover, #headerlinks li:first-child a:hover {
+	
+	background-color: rgb(242, 242, 242, 0.2);
+	box-shadow: .1rem 0.1rem .2rem black;	
+
+}
+
+#headerlinks a:active, #primarynav a:active, #headerlinks li:first-child a:active {
+	
+	background-color: rgb(242, 242, 242, 0.4);	
+
+}
+
+/* Button on the index page (under reviews), register and sign in pages  */
+.button:hover, #secondarynav li:hover {
+	
+	cursor: pointer;
+	box-shadow: .1rem .1rem .2rem rgb(23, 37, 79, 0.95);
+
+}
+
+.button:active, #secondarynav li:active {
+	
+	background-color: rgb(0, 42, 168, .3);
+
+}
+
+/* Footerlinks, intersite and internal links */
+#footerlinks a:hover, #terms_link a:hover, #register_link a:hover, .intersite_link:hover, .breadcrumbs a:hover {
+	
+	color: rgb(0, 42, 168, .15);
+
+}	
+
+#footerlinks a:active, #terms_link a:active, #signin_link a:active, .intersite_link:active, .breadcrumbs a:active {
+	
+	color: rgb(0, 42, 168, .4);
+
+}
+
+
+
+/* INDEX PAGE */
+#index_h1 {
+	
+	margin-top: 2.5rem;
+	
+}
+
+/* foramtting the first image on the index page */
+#index_img_1 {
+	
+	width: 30%;
+	display: block;
+	float: right;
+	padding-left: 1.5rem;
+	
+}
+
+#index_img_1 img {
+	
+	width: 100%;
+	
+}
+
+/* foramtting the second image on the index page */
+#index_img_2 {
+	
+	width: 60%;
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 0.2rem;
+
+}
+
+/* Formatting the reviews section */
+
+#container_reviews {
+	
+	display: flex;
+	flex-direction: column;
+	margin-top: 2.5rem;
+
+}
+
+/* Setting a margin between the flexboxes of the reviews on the index page */
+.review1 {
+	
+	margin-bottom: 1.5rem;
+
+}
+
+/* Formatting content of the reviews on the index page */
+#container_reviews figure {
+	
+	text-align: center;
+	
+}
+
+/* Profile pictures and the names of reviewers on the index page */
+#container_reviews img {
+	
+	width: 12vmin;
+	border-radius: 360px;
+		
+}
+
+#container_reviews figcaption{
+	
+	font-size: 0.85rem;
+	letter-spacing: -.04rem;
+	text-align: center;
+
+}
+
+.text_of_review {
+	
+	font-size: 1.2rem;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1rem;
+
+}
+
+.button_index {
+	
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	
+}
+
+
+
+/* PLACES PAGE */
+#container_places {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.5rem;
+
+}
+
+.flexbox_places {
+	
+	
+	line-height: calc(1ex / 0.32);
+	background-color: white;
+	border: 1px solid rgb(0, 19, 77, .3); 
+	border-radius: 10px;
+	text-align: center;
+	min-width: 12rem;
+	max-width: 15rem;
+	flex: 1 1 15%;
+	padding: 1.5rem;
+
+}
+ 
+.flexbox_places img {
+	
+	width: 100%;
+	height: 10rem;
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	
+}
+
+/* Bottom margin of the figcaption*/
+.source_places {
+	
+	margin-bottom: 1rem;
+	
+}
+
+.flexbox_places ul {
+	
+	text-align: left;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	
+}
+
+
+
+/* TRANSPORT PAGE */
+#columns {
+	
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	
+}
+
+#leftcolumn {
+	
+	flex: 1;
+	flex-wrap: wrap;
+
+}
+
+#leftcolumn ul{
+	
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	
+}
+
+#leftcolumn li {
+	
+	letter-spacing: -.1rem;
+	background-color: white;
+	border: 1px solid rgb(0, 19, 77, .3);
+	border-radius: 10px;
+	box-shadow: .05rem 0.05rem .2rem rgb(4, 33, 104);
+	align-items: center;
+	list-style: none;
+	width: 13vmin;
+	display: flex;
+	flex-direction: column;
+	padding: .5rem .5rem .2rem .5rem;
+	
+}
+
+#secondarynav img {
+	
+	width: 4vmin;
+	
+}
+
+#secondarynav span {
+	
+	font-size: .9rem;
+	
+}
+
+#rightcolumn {
+	
+	width: 88%;
+	
+}
+
+aside {
+	
+	background-color: white;
+	word-wrap: break-word;
+    width: 8%;
+    border: 1px solid rgb(0, 19, 77, .3);
+    border-radius: 10px;
+	position: absolute;
+	top: 29rem;
+	left: 86%;
+	padding: .5rem;
+	padding-bottom: 0;
+
+}
+
+aside p {
+	
+	font-size: 0.75rem;
+	text-align: left;
+	padding-bottom: .5rem;
+	
+}
+
+aside a{
+	
+	font-size: 0.75rem;
+	
+}
+
+
+
+/* TRAVEL TIPS PAGE */
+#container_tips {
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 1.5rem;
+	
+}
+
+.flexbox_tips {
+	
+	padding: .8rem 1rem .4rem 1rem;
+	
+}
+
+.flexbox_tips img {
+	
+	width: 10rem;
+	display: block;
+	margin-top: 1.2rem;
+	margin-bottom: .1rem;
+	
+}
+
+
+
+
+/* REGISTER AND SIGN IN PAGES */
+label {
+	
+	letter-spacing: .05rem;
+	
+}
+
+input {
+	
+	width: 58%;
+	background-color: white;
+	border: 1px solid rgb(0, 19, 77, .3);
+	border-radius: 10px;
+	padding: 1rem;
+	margin-top: .2rem;
+	margin-bottom: 1rem;
+
+}
+
+#last_input_margin {
+	
+	margin-bottom: .5rem;
+
+}
+
+/* Terms & Privacy link on the register page */
+#terms_link {
+	
+	font-size: 0.6rem;
+	padding-bottom: 0;
+
+}
+
+#terms_link a {
+	
+	font-size: 0.9rem;
+
+}
+
+.button_register {
+	
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	background-color: rgb(0, 19, 77, .9);
+
+}
+
+#register_link {
+	
+	font-size: 0.7rem;
+	text-align: center;
+	padding-bottom: 0;
+	margin-top: 1.5rem;
+	
+} 
