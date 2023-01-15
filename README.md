@@ -1,5 +1,8 @@
 # HTML_CSS_travel_guide
 
+![1](https://user-images.githubusercontent.com/85522584/212560647-de692b1c-5bf3-4143-9e19-8b294d5e2151.jpg)
+
+
 Usability and Accessibility
 
 The site is optimised for devices with smaller screens by using viewport. To make the size of the font, some margins, borders, and some of the images responsive, viewport units were used. The primary navigation menu and headers are placed further away from the sides of the screen, to make it easier to navigate when someone will be using only one hand on their phone. Each navigation button is distinct, appropriately sized and can be easily pressed on all differently sized devices. 
