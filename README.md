@@ -1,6 +1,15 @@
 # HTML_CSS_travel_guide
 
 ![1](https://user-images.githubusercontent.com/85522584/212560647-de692b1c-5bf3-4143-9e19-8b294d5e2151.jpg)
+![2](https://user-images.githubusercontent.com/85522584/212560681-b9062e0b-1b56-40cc-843d-fe0edf60e041.jpg)
+![3](https://user-images.githubusercontent.com/85522584/212560693-f98ebd92-3488-4089-9679-092aa57495eb.jpg)
+![4](https://user-images.githubusercontent.com/85522584/212560703-591793fd-48a1-462f-97db-801d67a3af37.jpg)
+![5](https://user-images.githubusercontent.com/85522584/212560709-14fdb5fc-2616-42de-b094-673ae46d60a9.jpg)
+![6](https://user-images.githubusercontent.com/85522584/212560714-81ea30c1-a72b-4dd9-b92d-ba923a2cadcc.jpg)
+![7](https://user-images.githubusercontent.com/85522584/212560724-45988e7f-cbde-4492-96ab-6da884e43bbf.jpg)
+![8](https://user-images.githubusercontent.com/85522584/212560730-227fba78-8e88-4a2d-b683-a6209657e215.jpg)
+![9](https://user-images.githubusercontent.com/85522584/212560735-9d985b6d-1b77-4f3f-bc4b-9c0a8ba2bcfe.jpg)
+
 
 
 Usability and Accessibility
